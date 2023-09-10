@@ -12,4 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
       toyFormContainer.style.display = "none";
     }
   });
+
+// Global Variables
+const toyCollection = document.getElementById('toy-collection')
+const getToyName = () => {
+  const inputName = document.getElementsByTagName('input')[0].value;
+  console.log(inputName);
+};
 });
+
